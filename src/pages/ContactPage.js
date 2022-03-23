@@ -12,7 +12,7 @@ const ContactPage = () => {
     return (
         <ContactStyled variants={pageAnim} initial="hidden" animate="show" exit="exit"> 
             <h2>Get in touch.</h2>
-            <form className="form-wrapper" name="contact" method="POST" data-netlify="true">
+            <form className="form-wrapper"  action="https://formspree.io/f/xrgjlwvv" method="POST">
                 <div className="name-form">
                 <label htmlFor="name">Name:</label>
                 <input type="text" name="name" required />
