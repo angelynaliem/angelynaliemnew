@@ -31,8 +31,7 @@ const LineAnimStyled = styled(motion.svg)`
   position: absolute;
   top: 0;
   left: 0;
-
-  /* z-index: 2; */
+  z-index: -1;
 
 `;
 
