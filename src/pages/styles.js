@@ -20,7 +20,7 @@ color: white;
 export const DescStyled = styled.div`
 flex: 1;
 padding-right: 5rem;
-z-index: 300;
+/* z-index: 300; */
 
 h2 {
     font-weight: lighter;
