@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { motion } from "framer-motion";
 
 export const AboutStyled = styled.div`
   min-height: 90vh;
@@ -59,6 +58,7 @@ img {
     img {
         height: 60vh;
     }
+}
 `;
 
 export const HideStyled = styled.div`

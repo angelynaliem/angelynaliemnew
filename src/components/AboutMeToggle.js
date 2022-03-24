@@ -8,6 +8,7 @@ import sortDown from "../img/sort-down-solid.svg";
 const AboutMeToggle = ({ children, category }) => {
   const [toggle, setToggle] = useState(false);
 
+  //Use 'layout' to make the display view cleaner, no flash or lag.
   return (
     <motion.div layout className="question" onClick={() => setToggle(!toggle)}>
       <SubcategoryStyled layout>

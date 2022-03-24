@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import styled from "styled-components";
 import { motion } from "framer-motion";
@@ -9,20 +9,8 @@ import { Link, useLocation } from "react-router-dom";
 const Nav = () => {
   const { pathname } = useLocation();
 
-  // const [navTransparency, setNavTransparency] = useState(false);
-
-  // const changeNavTransparency = () => {
-  //     if (window.scrollY >= 80) {
-  //         setNavTransparency(true);
-  //     } else {
-  //         setNavTransparency(false);
-  //     }
-  // }
-
-  // window.addEventListener("scroll", changeNavTransparency);
-
   return (
-    // <NavStyled className={navTransparency ? "" : "navTrans"}>
+   
     <NavStyled>
       <h1>
         <Link id="Logo" to="/">
@@ -137,9 +125,6 @@ const NavStyled = styled.nav`
     }
   }
 
-  /* .navTrans {
-    opacity: 0.2;
-} */
 `;
 
 const HoverLine = styled(motion.div)`

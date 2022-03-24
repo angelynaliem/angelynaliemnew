@@ -6,7 +6,6 @@ import {
   AboutStyled,
   DescStyled,
   ImageStyled,
-  HideStyled,
 } from "../pages/styles";
 
 //Import icon images to be used in this component.
@@ -17,7 +16,6 @@ import diceFour from "../img/diceFour.svg";
 
 //Import images
 import projectPhoto from "../img/projectPhoto.jpg";
-import About from "./About";
 
 const Projects = () => {
   return (
@@ -139,10 +137,6 @@ const Icon = styled.div`
       }
     }
 
-    /* p {
-        align-items: center;
-        justify-content: center;
-    } */
   }
 `;
 
