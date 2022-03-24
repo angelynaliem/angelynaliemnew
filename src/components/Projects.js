@@ -73,6 +73,7 @@ const ProjectsStyled = styled(AboutStyled)`
     text-align: center;
   }
   @media (max-width: 1300px) {
+
     h3 {
       font-size: 2rem;
     }
@@ -91,6 +92,7 @@ const Icons = styled.div`
 
   @media (max-width: 1300px) {
     justify-content: center;
+
   }
 `;
 
@@ -136,7 +138,6 @@ const Icon = styled.div`
         transform: translateY(-60%);
       }
     }
-
   }
 `;
 

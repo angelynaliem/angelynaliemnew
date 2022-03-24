@@ -28,6 +28,8 @@ export const DescStyled = styled.div`
     padding: 0;
     button {
       margin: 1rem 0rem 5rem 0rem;
+      font-size: 2rem;
+      width: 50%;
     }
 
     h2 {
