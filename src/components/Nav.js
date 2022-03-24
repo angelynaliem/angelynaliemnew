@@ -66,7 +66,7 @@ const NavStyled = styled.nav`
   position: sticky;
   top: 0;
   position: -webkit-sticky;
-  z-index: 100;
+  z-index: 500;
 
   a {
     color: white;
