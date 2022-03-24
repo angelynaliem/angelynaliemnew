@@ -70,6 +70,12 @@ const LineAnimStyled = styled(motion.svg)`
   top: 0;
   left: 0;
   z-index: -1;
+
+  @media (max-width: 1300px) {
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+  }
 `;
 
 export default LineAnim;
