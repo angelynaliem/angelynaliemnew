@@ -20,4 +20,4 @@ Some issues:
 
 #### On refresh, the project and contact page broke 404
 
-Thanks for checking out my portfolio. Any constructive feedback would be much appreciated! Please send them via the [Contact Form](https://www.angelynaliem.com/contact).
+Thanks for checking out my portfolio. Any constructive feedback would be much appreciated! Please send them via the Contact Form on my portfolio site.
