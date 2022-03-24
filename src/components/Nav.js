@@ -25,21 +25,21 @@ const Nav = () => {
     return (
         // <NavStyled className={navTransparency ? "" : "navTrans"}>
         <NavStyled>
-            <h1><Link id="Logo" to="/">Angelyn</Link></h1>
+            <h1><Link id="Logo" to="/">_Angelyn_</Link></h1>
             <ul>
                 <li>
-                    <Link to="/">About</Link>
+                    <Link id="NavLinks" to="/">About</Link>
                     <HoverLine transition= {{duration: 0.75}} initial={{width: "0%"}} animate={{width: pathname === "/" ? "50%" : "0%" }} />
                 </li>
             
                 <li>
-                    <Link to="/projects">Projects</Link>
+                    <Link id="NavLinks" to="/projects">Projects</Link>
                     <HoverLine transition= {{duration: 0.75}} initial={{width: "0%"}} animate={{width: pathname === "/projects" ? "50%" : "0%"}} />
               
                 </li>
             
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link id="NavLinks" to="/contact">Contact</Link>
                     <HoverLine transition= {{duration: 0.75}} initial={{width: "0%"}} animate={{width: pathname === "/contact" ? "50%" : "0%"}} />
               
                 </li>
@@ -82,9 +82,13 @@ li {
 }
 
 #Logo {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: lighter;
     font-family: 'Fredericka the Great', cursive;
+}
+
+#NavLinks {
+    font-size: 1.5rem;
 }
 
 @media (max-width: 1300px) {
@@ -94,7 +98,14 @@ li {
     #Logo {
         /* margin: 2rem; //cannot add margin/padding to 'a' tag */
         display: inline-block; //for inline element, cannot add padding top/bottom
-        margin: 2rem;
+        margin: 1rem;
+        font-size: 4rem;
+    }
+
+    #NavLinks {
+        font-size: 2rem;
+        padding: 3rem;
+    
     }
 
     ul {

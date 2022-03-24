@@ -100,11 +100,21 @@ button {
 
 
 @media (max-width: 1500px) {
-    padding: 2rem;
+    padding: 1rem;
     font-size: 1rem;
 
+    h2 {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .name-form, .email-form, .message-form {
+        padding: 1rem 1.5rem;
+    }
+
     .form-wrapper {
-        width: 60%;
+        width: 90%;
+        margin: auto;
     }
 
     textarea {

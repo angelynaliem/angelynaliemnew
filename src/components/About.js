@@ -39,10 +39,11 @@ const About = () => {
             <ImageStyled>
             <motion.img layout variants={imageAnim} src={homePhoto} alt="a woman coding" />
             </ImageStyled>
-            <LineAnim />
+            <LineAnim id="LineAnimId"/>
 </AboutStyled>
     )
 }
+
 
 // const AboutStyled = styled.div`
 // min-height: 90vh;

@@ -66,8 +66,20 @@ h2 {
 }
 
 p {
-    width: 70%;
+    width: 90%;
     padding: 2rem 0rem 4rem 0rem;
+    text-align: center;
+}
+@media (max-width: 1300px) {
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        width: 100%;
+    }
+    
+
 }
 `;
 
@@ -81,6 +93,7 @@ flex-wrap: wrap;
 
 @media (max-width: 1300px) {
  justify-content: center;   
+
 }
 
 `;
@@ -97,6 +110,7 @@ flex-basis: 20rem;
         background: white;
         color: black;
         padding: 1rem;
+        border-radius: 1rem;
     }
     
     img {

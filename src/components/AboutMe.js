@@ -16,8 +16,8 @@ const AboutMe = () => {
                 <div className="question">
                    
                 <div className="answer">
-                    <p>I spent 3 years at Berita Satu, a media company in Indonesia. I started out as a Management Trainee and was promoted to Social Media Manager a year later for helping turn its English-language newspaper's presence on Facebook into the largest English-language newspaper community on Facebook in Souteast Asia at the time. After that, I became a Project Manager and launched the company's first English-language media program for highschoolers. 2013-2016</p>
-                    <p>I also worked for almost 3 years at Global Entrepreneurship Program Indonesia, a U.S. State Department initiated not-for-profit organization to promote peace and entrepreneurship in developing countries. I started out as a Program Manager to help launch the organization's incubator space then was promoted to Executive Director a year later where I turned the organization into a more financially sustainable organization by increasing its annual revenue by 385% and making it the top "go-to" organization for those wanting to learn about entrepreneurship in Indonesia. 2008-2011</p>
+                    <p>I spent 3 years at Berita Satu, a media company in Indonesia. I started out as a Management Trainee and was promoted to Social Media Manager a year later for helping turn its English-language newspaper's presence on Facebook into the largest English-language newspaper community on Facebook in Souteast Asia at the time. After that, I became a Project Manager and launched the company's first English-language media program for highschoolers. 2008-2011</p>
+                    <p>I also worked for almost 3 years at Global Entrepreneurship Program Indonesia, a U.S. State Department initiated not-for-profit organization to promote peace and entrepreneurship in developing countries. I started out as a Program Manager to help launch the organization's incubator space then was promoted to Executive Director a year later where I turned the organization into a more financially sustainable organization by increasing its annual revenue by 385% and making it the top "go-to" organization for those wanting to learn about entrepreneurship in Indonesia. 2013-2016</p>
                 </div>
             </div>
                 </AboutMeToggle>
@@ -27,8 +27,8 @@ const AboutMe = () => {
             <AboutMeToggle category="Educational Experience">
             <div className="question">
                 <div className="answer">
-                    <p>Master of Science in Social Work, specializing in Social Enterprise Administration. I obtained scholarships and financial aids from Pelita Harapan Foundation, YCAB Foundation, and P.E.O International. I interned at UNICEF and NYC Department of Education. 2011-2013</p>
-                    <p>Bachelor of Science in Education, specializing in English Language Teaching. Throughout my undergraduate years, I worked as an English Teacher at English First in Jakarta, Indonesia and Beijing, China. 2004-2008</p>
+                    <p>Master of Science in Social Enterprise Administration from Columbia University, NY. I obtained scholarships and financial aids from Pelita Harapan Foundation, YCAB Foundation, and P.E.O International. I interned at UNICEF and NYC Department of Education. 2011-2013</p>
+                    <p>Bachelor of Science in Education from Pelita Harapan University, Indonesia. Throughout my undergraduate years, I worked as an English Teacher at English First in Jakarta, Indonesia and Beijing, China. 2004-2008</p>
                 </div>
             </div>
             </AboutMeToggle>

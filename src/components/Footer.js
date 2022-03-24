@@ -9,8 +9,8 @@ const Footer = () => {
             <ul>
                 <li>
                     <a href="https://www.linkedin.com/in/angelynaliem" target="_blank"><i class="fa-brands fa-linkedin-in fa-2x"></i></a>
-                    <a href="https://www.twitter.com/angelynaliem" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a>
-                    <a href="https://www.instagram.com/angelynaliem" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                    <a href="https://www.twitter.com/angelynliem" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                    <a href="https://www.instagram.com/angelynaliem_" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
                 </li>
             </ul>
        </FooterWrapper>
@@ -21,7 +21,7 @@ const Footer = () => {
 
 const FooterWrapper = styled.div`
 color: white;
-background: rgba(19, 28, 39, 1);
+background: #282828;
 display: flex;
 align-items: center;
 justify-content: space-around;

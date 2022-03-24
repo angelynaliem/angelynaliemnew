@@ -14,7 +14,7 @@ const AboutMeToggle = ({ children, category }) => {
         <motion.div layout className="question" onClick={() => setToggle(!toggle)}>
             <SubcategoryStyled layout>
                 <motion.h4 layout>{category}</motion.h4>
-                <img src={sortDown} alt="sort down arrow" style={{ width: "1%" }} />
+                <img src={sortDown} alt="sort down arrow" />
             </SubcategoryStyled>
             {toggle ? children : ""}
             <div className="question-line"></div>
@@ -27,6 +27,13 @@ display: flex;
 justify-content: space-between;
 img {
   margin-right: 1rem;
+  width: 1%;
+}
+
+@media (max-width: 1300px) {
+    img {
+        width: 2.5%;
+    }
 }
 `;
 

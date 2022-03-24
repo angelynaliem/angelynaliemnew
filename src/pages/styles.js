@@ -24,13 +24,24 @@ z-index: 200;
 
 h2 {
     font-weight: lighter;
+   
 }
 
 @media (max-width: 1300px) {
     padding: 0;
     button {
-        margin: 2rem 0rem 5rem 0rem;
+        margin: 1rem 0rem 5rem 0rem;
     }
+
+    h2 {
+    font-weight: lighter;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+p {
+    font-size: 2rem;
+}
     
 }
 `;
@@ -45,6 +56,12 @@ img {
     height: 80vh;
     object-fit: cover;
 }
+
+@media (max-width: 1300px) {
+
+    img {
+        height: 60vh;
+    }
 `;
 
 export const HideStyled = styled.div`
