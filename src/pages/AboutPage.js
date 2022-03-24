@@ -12,17 +12,15 @@ import { pageAnim } from "../animation";
 //Import Scrolling Page Transition
 import ScrollTransition from "../components/ScrollTransition";
 
-
 const AboutPage = () => {
-    return (
-        <motion.div variants={pageAnim} initial="hidden" animate="show" exit="exit">
-             <About />
-            <Projects />
-            <AboutMe />
-            <ScrollTransition />
-        </motion.div>
-       
-    )
-}
+  return (
+    <motion.div variants={pageAnim} initial="hidden" animate="show" exit="exit">
+      <About />
+      <Projects />
+      <AboutMe />
+      <ScrollTransition />
+    </motion.div>
+  );
+};
 
 export default AboutPage;
